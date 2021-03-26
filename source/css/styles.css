@@ -22,16 +22,16 @@ header {
     background: #24252A;        
 }
 
-
 .logo {
     float: left;    
 }
 
 .logo img {
     position: relative;
-    top: 8px;
+    top: 5px;
     width: 40px;
-    height: 40px;    
+    height: auto;
+    object-fit: cover;    
 }
 
 
@@ -243,6 +243,7 @@ button.btn-about {
     color: #fff;
     transition: 0.5s;
     outline: none;
+    cursor: pointer;
 }
 
 button.btn-about:hover {
